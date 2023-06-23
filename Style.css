@@ -1,0 +1,259 @@
+/* CSS code for responsive design */
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main container */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+/* Main content */
+main {
+  margin-bottom: 40px;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+article h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+article p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* Sidebar */
+aside {
+  width: 300px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 40px;
+  float: right;
+}
+
+aside h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+aside ul {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+aside ul li {
+  margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+  /* For screens smaller than 768px (e.g., mobile devices) */
+
+  /* Main container */
+  .container {
+    padding: 10px;
+  }
+
+  /* Sidebar */
+  aside {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 5px;
+  color: #333;
+}
+
+/* Color styles */
+nav ul li a:hover {
+  color: #ff0000; /* Change to the desired hover color */
+}
+
+nav ul li a.active {
+  color: #0000ff; /* Change to the desired active color */
+}
+.share-buttons {
+  margin-top: 10px;
+}
+
+.share-button {
+  display: inline-block;
+  background-color: #ebebeb;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.share-button:hover {
+  background-color: #dcdcdc;
+}
+
+.share-button i {
+  color: #333;
+}
+
+/* Assuming you are using Font Awesome icons */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+aside {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Add any additional styles as needed */
+
+
+/* aditional ------------------------->>>>>
+
+/* Main content */
+main {
+  margin-bottom: 40px;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+article h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.article-padding {
+  padding: 20px; /* Add padding to create a box */
+}
+
+.article-padding .post-content {
+  margin-bottom: 10px;
+}
+
+.article-padding .share-buttons {
+  margin-top: 20px;
+}
